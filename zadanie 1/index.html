@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootcamp Front-end Developer</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Zadanie 1 Geolokalizacja</h1>
+
+	</header>
+	
+	<main>
+		<div id="supportOutput" class="alert"></div>
+		<div id="positionOutput" class="alert alert-info"></div>
+		<button id="findPosition" class="btn btn-primary">Ustal moją pozycje</button>
+		<a id="goMapBing" class="btn hidden">Zobacz pozycje na mapie BING</a>
+		<a id="goMap" class="btn hidden">Wczytaj mapę GOOGLE MAPS</a>
+		<div id="map" class="mapContener"></div>
+
+	</main>
+	
+
+
+
+ <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGBi3bl5VJgxEj4oipEO4CXop5emRrKKU"
+  type="text/javascript"></script>
+<script src="scripts.js"></script>
+</body>
+</html>

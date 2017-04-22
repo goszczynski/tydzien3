@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootcamp Front-end Developer</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="videoPlayer" class="videoPlayer">
+    <video width="100%">
+        <source src="carsonbridge.mp4" type="video/mp4" />
+        <source src="carsonbridge.webm" type="video/webm" />      
+    </video>
+
+    <div class="controls">
+        <div class="leftControls">
+            <div class="playPause glyphicon glyphicon-play"></div>
+        </div>
+
+        <div class="progressBar">
+            <div class="playbackBar"></div>
+            <div class="loadedBar"></div>
+        </div>
+
+        <div class="rightControls">
+            <div class="time">
+                <span class="currentTime">0:00</span>
+                /
+                <span class="totalTime">0:00</span>
+            </div>
+
+            <div class="volume glyphicon glyphicon-volume-up">
+                <div class="fullVolume">
+                    <div class="currentVolume"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="scripts.js"></script>
+</body>
+</html>

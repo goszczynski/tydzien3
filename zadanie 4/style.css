@@ -1,0 +1,178 @@
+body{
+	max-width: 1200px;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #F9F9F9;
+}
+header{
+	text-align: center;
+	color: #333333;
+	background-color: #666666;
+	padding: 30px;
+}
+
+h1{
+	color: #fff;
+}
+main{
+	margin-top: 40px;
+}
+/* Video Player */
+.videoPlayer video {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.videoPlayer .controls {
+    padding: 5px 225px 5px 55px;
+    height: 40px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, .75);
+
+    position: relative;
+
+    color: #8a8a8a;
+}
+
+.videoPlayer .leftControls {
+    width: 30px;
+
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+.videoPlayer .playPause {
+    width: 30px;
+    height: 100%;
+
+    cursor: pointer;
+
+    font-size: 28px;
+}
+
+.videoPlayer .progressBar {
+    width: 100%;
+    height: 100%;
+    float: left;
+    background-color: #5F5F5F;
+
+    position: relative;
+
+    cursor: pointer;
+}
+
+.videoPlayer .playbackBar {
+    width: 0%;
+    height: 100%;
+    background-color: #d3d3d3;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.videoPlayer .loadedBar {
+    width: 0%;
+    height: 100%;
+    background-color: #838383;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.videoPlayer .rightControls {
+    width: 200px;
+
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.videoPlayer .time {
+    margin: 0 15px 0 0;
+    float: left;
+
+    font-size: 14px;
+    line-height: 32px;
+}
+
+.videoPlayer .volume {
+    width: 110px;
+    height: 100%;
+    float: left;
+
+    cursor: pointer;
+
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.videoPlayer .volume:before {
+    margin: 0 15px 0 0;
+    float: left;
+}
+
+.videoPlayer .fullVolume {
+    width: 67px;
+    height: 10px;
+    margin: 10px 0 0 0;
+    float: left;
+    background-color: #818181;
+
+    position: relative;
+}
+
+    .videoPlayer .currentVolume {
+        width: 0%;
+        height: 100%;
+        background-color: #d3d3d3;
+
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+@media (max-width: 420px) {
+
+    .videoPlayer .controls {
+        padding-right: 160px;
+        padding-left: 45px;
+    }
+
+    .videoPlayer .leftControls {
+        width: 20px;
+    }
+
+    .videoPlayer .playPause {
+        width: 20px;
+
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .videoPlayer .rightControls {
+        width: 135px;
+    }
+
+    .videoPlayer .time {
+        font-size: 12px;
+    }
+
+    .videoPlayer .volume {
+        width: 60px;
+
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .videoPlayer .fullVolume {
+        width: 25px;
+    }
+
+}

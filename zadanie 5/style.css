@@ -1,0 +1,35 @@
+body{
+	max-width: 1200px;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #F9F9F9;
+}
+header{
+	text-align: center;
+	color: #333333;
+	background-color: #666666;
+	padding: 30px;
+}
+
+h1{
+	color: #fff;
+}
+main{
+	margin-top: 40px;
+	background-color: #ffffff;
+	padding:30px;
+	border: 1px solid #e3e3e3;
+}
+label{
+	display: block;
+}
+.playground{
+	width: 100%;
+	display: block;
+	margin-top: 40px;
+	background-color: #ffffff;
+	padding:30px;
+	border: 1px solid #e3e3e3;
+	box-sizing: border-box;
+}

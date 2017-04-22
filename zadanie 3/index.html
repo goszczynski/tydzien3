@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootcamp Front-end Developer</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Czat</h1>
+	</header>
+	<main>
+		<div id="chat">
+            <div class="form-inline">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="yourName" placeholder="Podaj swoje imię">
+                </div>
+                <button class="btn btn-primary" id="join">Dołącz</button>
+            </div>
+            <hr>
+            <div id="chatWindow" class="chat-window"></div>
+            <div class="form-group">
+                <textarea class="form-control" rows="3" id="message" placeholder="Wiadomość..."></textarea>
+            </div>
+            <button class="btn btn-primary pull-right" id="submit" disabled>Wyślij</button>
+        </div>
+	</main>
+<script src="scripts.js"></script>
+</body>
+</html>
